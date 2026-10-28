@@ -15,8 +15,8 @@ public abstract class Personaje {
     protected Direccion direccion;
 
     /**
-      @param posicionInicial posicion donde arranca el personaje
-      @param direccionInicial direccion con la que arranca
+      @param posicionInicial, posicion donde arranca el personaje
+      @param direccionInicial, direccion con la que arranca
      */
     public Personaje(Posicion posicionInicial, Direccion direccionInicial) {
         this.posicionInicial = posicionInicial;
@@ -32,8 +32,6 @@ public abstract class Personaje {
 
     /*
       Copia posicionInicial a posicion (vuelve al punto de partida).
-     
-
      */
     public void volverAPosicionInicial() {
         this.posicion = this.posicionInicial;
@@ -41,7 +39,6 @@ public abstract class Personaje {
 
     /*
       hay colision si ambos personajes estan en la misma posicion
-      
      */
     public boolean colisionaCon(Personaje otro) {
         return this.posicion.equals(otro.getPosicion());

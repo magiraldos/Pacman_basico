@@ -2,7 +2,7 @@ package pacman.modelo;
 
 import java.util.Objects;
 
-// Representa ubicacion en el tablero
+// Representa la ubicacion en el tablero
 public class Posicion {
     private int fila;
     private int columna;
