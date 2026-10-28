@@ -1,6 +1,6 @@
 package pacman.modelo;
 
-// lista de opciones fijas posibles
+// lista de opciones fijas posibles en las que se puede dirigir una entidad
 public enum Direccion {
     ARRIBA,
     ABAJO,
